@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: Aboreto, sans-serif;
+}
+.title{
+  font-size: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background-color: #634e34;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 3px, rgba(255, 255, 255, 0.2) 3px, rgba(255,255,255,0.2) 6px), repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(255, 255, 255, 0.2) 3px, rgba(255,255,255,0.2) 6px), linear-gradient(to right, #452f03, #5e3d04, #452f03);
+  background-size: 60px 60px;
+}
+.container {
+  width: 40%;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px white;
+  }
+
+  .imagen{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+  }
+
+figcaption.pie_foto {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    width:100%;
+  }
+}
